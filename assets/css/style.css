@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Colors*/
+
+/*
+.ui-navbar-color {
+    background-color: #ffffff;
+}
+*/
+
+/*--------------------------------------------Special Paddings/Margins/Text*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.sub-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #000000;
+}
+
+.menublock {
+    box-shadow: 6px 6px 3px #8f8f8f;
+    margin-left: -3px;
+}
+
+.album-block {
+    margin-top: 50px;
+    margin-bottom: 30px;
+/*    max-height: 100%; */
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+/*--------------------------------------------Heading*/
+
+header {
+    margin: 0;
+}
+
+.nav {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #82e0aa;
+    padding-top: 48px;
+    margin-bottom: 0;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.navbar-nav li a {
+    background-color: #82e0aa;
+}
+
+.navbar-nav i {
+    padding-right: 5px;
+}
+
+.active, .navbar-nav:hover {
+    background-color: #82e0aa;
+    color: #808b96;
+}
+
+.heading { 
+    font-family: "Lato", sans-serif;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+/*-----------------------------------
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #000000;
+    height: 120px;
+}
+
+.menuitem .a .i {
+    padding-top: 44px;
+    display: block;
+    color: #000000;
+    font-size: 26px;
+}
+
+.menuitem .span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+*/
+/*--------------------------------------------Hover.css */
+
+.hvr-radial-out:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+/*--------------------------------------------Footer*/
+footer {
+    background-color: #5dade2;
+    font-style: normal;
+    color: #000000;
+    min-height: 140px;
+    margin: 0;
+}
+
+.footer-item {
+    list-style-type: none;
+    color: #000000;
+    font-size: 14px;
+    padding-left: 0;
+    line-height: 2;
+}
+
+.footer-item li a {
+    color: #000000;
+    font-size: 14px;
+    padding-left: 0;
+    line-height: 2;
+}
+
+.icons li a i {
+    width: 28px;
+    height: 28px;
+    padding: 12px 0;
+    margin-right: 5px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 6px;
+    text-align: center;
+    color: #a93226;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-item li a:hover {
+    background: #e84610;
+}
+
+.icons li a i:hover {
+    background: #e84610;
+}
+
+/*--------------------------------------------index page*/
+
+.bandphoto1 {
+    background: url("../images/monkees.jpg");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    min-height: 550px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.blueacross {
+    background-color: #1BBAB8;
+}
+
+.redacross {
+    background-color: #F90C0C;
+}
+
+.yellowacross {
+    background-color: #FEDE0F;
+}
+
+.purpleacross {
+    background-color: #BE0FFE;
+}
+
+.name-left {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 20px;
+    color: #000000;
+}
+
+.title-left {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #000000;
+}
+
+.bio-left {
+    margin-left: 20px;
+    color: #000000;
+}
+
+.title-right {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: right;
+    color: #000000;
+}
+
+.name-right {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    text-align: right;
+    color: #000000;
+}
+
+.bio-right {
+    margin-left: 20px;
+    color: #000000;
+}
+
+.djpic {
+    background: url("../images/dj.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.mdpic {
+    background: url("../images/md.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.mnpic {
+    background: url("../images/mn.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.ptpic {
+    background: url("../images/pt.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+    
+/*--------------------------------------------Get The Music*/
+
+
+/*--------------------------------------------Reviews & FAQ's*/
+
+.video {
+    max-width: 100%;
+    height: auto;
+}
+
+.embed-responsive {
+    padding: 10px;
+    background-position: center;
+    max-height: 400px;
+}
+
+.embed-responsive-16by9 {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 38%;
+    background-position: center;
+}
+
+.iframe {
+    margin-top: 20px;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+/*
+.bandvideo {
+    background: url("../images/TheMonkees.mp4");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    min-height: 700px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+*/
+
+/*--------------------------------------------Book the Band*/
+
+.left-margin {
+    margin-left: 30px;
+}
+
+/*--------------------------------------------Media Queries*/
+
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+}
